@@ -22,8 +22,8 @@
                 </div>
             </section>  
              <!--About Section -->
-            <section class="about-section d-flex align-items-center justify-content-center position-relative" style="min-height: 80vh;">
-                <div class="container bg-light rounded shadow p-5">
+            <section class="about-section d-flex flex-column  align-items-center justify-content-center position-relative" style="min-height: 80vh;">
+                <div class="container bg-light rounded shadow p-5 my-5">
                     <div class="row align-items-center">
                         <div class="col-md-6 text-left">
                             <h2 class="font-weight-bold mb-4">Who We Are</h2>
@@ -34,8 +34,32 @@
                         <div class="col-md-6">
                             <img src="/assets/images/volunteers.jpg" alt="Traverse Mountain Trails" class="img-fluid rounded">
                         </div>
+                    </div>   
+                </div>
+
+                 <!--Counter-->
+
+                <div class="container px-2 my-5">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 text-center lh-1 mb-4">
+                            <h2 class="font-weight-bold mb-0">+539</h2>
+                            <h1 class="font-weight-bold mb-0">HOURS</h1>
+                            <p class="font-weight-light mb-0">VOLUNTEERED</p>
+                        </div>
+                        <div class="col-md-4 text-center lh-1 mb-4">
+                            <h2 class="font-weight-bold mb-0">400+</h2>
+                            <h1 class="font-weight-bold mb-0">VISITORS</h1>
+                            <p class="font-weight-light mb-0">SERVED ANNUALLY</p>
+                        </div>
+                        <div class="col-md-4 text-center lh-1 mb-4">
+                            <h2 class="font-weight-bold mb-0">14</h2>
+                            <h1 class="font-weight-bold mb-0">TRAILS</h1>
+                            <p class="font-weight-light mb-0">AND COUNTING</p>
+                        </div>
                     </div>
                 </div>
+                </div>
+
             </section>
             <?php include $_SERVER["DOCUMENT_ROOT"] . '/partials/footer.php'; ?>
         </main>
