@@ -61,6 +61,17 @@
                 </div>
 
             </section>
+            <!-- Our Trails Section -->
+               <section class="trails-section d-flex flex-column  align-items-center justify-content-center position-relative" style="min-height: 80vh;">
+               <h1 class="text-center font-weight-bold m-5">Our Trails</h2>
+               <div class="trails-container container bg-light rounded shadow p-5 my-5">
+                </div>
+
+                
+               
+
+            </section>
+
             <?php include $_SERVER["DOCUMENT_ROOT"] . '/partials/footer.php'; ?>
         </main>
         <?php include $_SERVER["DOCUMENT_ROOT"] . '/partials/close-page.php'; ?>
