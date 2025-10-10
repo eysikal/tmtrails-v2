@@ -1,4 +1,4 @@
-<header id="tmtrails-header" class="mb-4">
+<header id="tmtrails-header" class="mb-0">
     <nav class="navbar navbar-expand-sm navbar-dark custom-header-bg custom-header-padding">
         <a class="navbar-brand" href="/">
             <img class="tmtrails-logo" src="/assets/images/tmtrails-logo-up.svg" alt="tmtrails logo">

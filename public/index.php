@@ -4,28 +4,35 @@
     <body>
         <?php include $_SERVER["DOCUMENT_ROOT"] . '/partials/header.php'; ?>
         <main>
-            <section class="container text-center">
-                <h1>Traverse Mountain Trails Association</h1>
+            <!-- Hero Section Start -->
+            <section class="hero-section d-flex align-items-center justify-content-center text-center position-relative" style="min-height: 100vh;">
+                <div class="hero-bg-overlay"></div>
+                <div class="container position-relative">
+                    <h1 class="display-4 text-white font-weight-bold">Explore Traverse Mountain Trails</h1>
+                    <p class="lead text-white mb-4">Discover scenic routes, join our community, and support local trails.</p>
                 <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div id="tmtrails-carousel" class="carousel slide mt-4" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="/assets/images/tmtrails-landscape-4.jpg" class="d-block w-100" alt="Traverse Mountain Landscape 1">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="/assets/images/tmtrails-landscape-5.jpg" class="d-block w-100" alt="Traverse Mountain Landscape 2">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="/assets/images/tmtrails-landscape-6.jpg" class="d-block w-100" alt="Traverse Mountain Landscape 3">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#tmtrails-carousel" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </a>
-                            <a class="carousel-control-next" href="#tmtrails-carousel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </a>
+                    <div class="col-auto">
+                        <a href="/trails" class="btn btn-primary btn-lg mx-2 w-100">Explore Trails</a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/trails" class="btn btn-light btn-lg mx-2 w-100">Donate</a>
+                    </div>
+                </div>
+
+                </div>
+            </section>  
+             <!--About Section -->
+            <section class="about-section d-flex align-items-center justify-content-center position-relative" style="min-height: 80vh;">
+                <div class="container bg-light rounded shadow p-5">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-left">
+                            <h2 class="font-weight-bold mb-4">Who We Are</h2>
+                            <p class="mb-4">
+                                The Traverse Mountain Trails Association (TMTA) is a volunteer-run nonprofit 501(c)(3)dedicated to building and maintaining sustainable recreational trails focused on mountain biking and hiking on Traverse Mountain in Lehi, Utah. TMTA works closely with Lehi City, other local governments and organizations, and community partners to plan, fund, and construct a growing tail network. Grants, private donations, and city funds have funded the existing trail network. Recent projects include key trails like Lehi’s Dream and Stairway to Heaven. With a vision to connect over 50 miles of trails to major systems like Draper’s Corner Canyon and the Bonneville Shoreline Trail, TMTA promotes outdoor access, conservation, and community involvement across Utah Valley.                            </p>
+                          
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/assets/images/volunteers.jpg" alt="Traverse Mountain Trails" class="img-fluid rounded">
                         </div>
                     </div>
                 </div>
