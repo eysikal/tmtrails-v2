@@ -83,3 +83,102 @@ main {
     color: #fff !important;
 }
 /*** Footer ***/
+
+.footer-section {
+    background-color: #242937;
+}
+
+
+/*** Timeline Section ***/
+.timeline-section { background-color: #242937; }
+.timeline-section { overflow: visible; }
+
+.timeline-cards { border-top: 1px dashed #82889ba1; padding-top: 1.5rem; }
+.timeline-card { min-width: 320px; flex: 0 0 auto; }
+.timeline-card img { height: 160px; object-fit: cover; border-radius: 4px; }
+.timeline-card .card-body { padding-top: .75rem; }
+.timeline-card .card-subtitle {
+  font-size: 1.25rem;       /* larger */
+  font-weight: 700;         /* bolder */
+  color: rgba(255,255,255,0.98);
+  margin-bottom: 0.35rem;
+  line-height: 1.08;
+}
+
+.timeline-card .card-desc {
+  font-size: 0.92rem;
+  font-weight: 300;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 0.5rem;
+}
+.timeline-wrapper { position: relative; padding-top: 1rem; }
+
+/* per-year group: each group positions its year on top of its first card */
+.timeline-year-group {
+  position: relative;
+  padding-left: 160px;   /* space reserved for the year */
+  display: flex;
+  align-items: flex-start;
+}
+
+/* year styling scoped to group */
+.timeline-year-group .timeline-year {
+  position: absolute;
+  left: 1rem;
+  top: 0.25rem;
+  font-size: 4.25rem;
+  line-height: 1;
+  z-index: 3;
+  color: #ffffff;
+  opacity: 0.95;
+  pointer-events: none;
+}
+
+/* horizontal scroll wrapper */
+.timeline-cards-wrapper {
+  width: 100vw;                 /* make wrapper span the full viewport */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;           /* center the 100vw breakout inside the page */
+  margin-right: -50vw;
+  padding-left: 160px;          /* reserve space so year sits over first card */
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+
+  overflow-x: auto;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+/* layout for the inline cards row */
+.timeline-cards { gap: 1.5rem; }
+
+/* card base for horizontal layout */
+.timeline-card {
+  min-width: 320px;
+  flex: 0 0 320px;
+}
+.timeline-card .card-img-top { height: 160px; object-fit: cover; }
+
+/* responsive tweaks */
+@media (min-width: 768px) {
+  /* keep previous 3-per-row where appropriate inside group if you prefer stacked rows */
+  /* you can remove these if you want strict horizontal scrolling at all sizes */
+  .timeline-card { min-width: 0; width: 33.333%; flex: 0 0 33.333%; }
+}
+
+@media (min-width: 992px) {
+  .timeline-year-group { padding-left: 220px; }
+  .timeline-year-group .timeline-year { left: 2rem; top: 0.9rem; font-size: 5rem; }
+  .timeline-card { min-width: 360px; flex: 0 0 360px; }
+  .timeline-card .card-img-top { height: 200px; }
+  .timeline-card .card-subtitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgba(255,255,255,0.98);
+    margin-bottom: 0.35rem;
+    line-height: 1.08;
+  }
+}
