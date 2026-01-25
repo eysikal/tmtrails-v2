@@ -6,6 +6,9 @@
         <main>
             <!-- Hero Section Start -->
             <section class="hero-section d-flex align-items-center justify-content-center text-center position-relative" style="min-height: 100vh;">
+                <video autoplay muted loop playsinline class="hero-video">
+                    <source src="/assets/files/hero-video.mp4" type="video/mp4">
+                </video>
                 <div class="hero-bg-overlay"></div>
                 <div class="container position-relative">
                     <h1 class="display-4 text-white font-weight-bold">Explore Traverse Mountain Trails</h1>
