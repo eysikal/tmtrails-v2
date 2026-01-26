@@ -11,7 +11,7 @@
                 </video>
                 <div class="hero-bg-overlay"></div>
                 <div class="container position-relative">
-                    <h1 class="display-4 text-white font-weight-bold">Explore Traverse Mountain Trails</h1>
+                    <h1 class="display-4 text-white font-weight-bold">Traverse Mountain Trails</h1>
                     <p class="lead text-white mb-4">Discover scenic routes, join our community, and support local trails.</p>
                 <div class="row justify-content-center">
                     <div class="col-auto">
