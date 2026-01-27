@@ -80,12 +80,12 @@
                             <div class="timeline-year display-4 font-weight-light">2025</div>
                             <div class="d-flex flex-row">
                                 <article class="timeline-card card bg-transparent border-0 text-white mr-3">
-                                    <img src="/assets/images/timeline/Mayors.png" class="card-img-top img-fluid" alt="Mayors trail">
+                                    <img src="/assets/images/timeline/stairway.jpg" class="card-img-top img-fluid" alt="Stairway to Heaven">
                                     <div class="card-body px-0">
                                         <h3 class="h3 font-weight-bold">Stairway to Heaven</h3>
-                                        <p class="card-subtitle mb-2">Hiking-only trail.</p>
-                                        <!-- <p class="card-desc mb-2">Made possible thanks to Mayor Johnson (Lehi) and Mayor Walker (Draper). Funded by Traverse Mountain Trails Association, Utah Outdoor Recreation Grant, and Lehi City. Constructed by Blazing Trailz.</p> -->
-                                        <!-- <p class="card-distance font-weight-bold">(2.1 mi)</p> -->
+                                        <p class="card-subtitle mb-2">A hiking-only trail connecting Fox Canyon to Deer Ridge.</p>
+                                        <p class="card-desc mb-2">Funded by Traverse Mountain Trails Association, Utah Outdoor Recreation Grant, and Lehi City. Constructed by Blazing Trailz.</p>
+                                        <p class="card-distance font-weight-bold">(1.75 mi)</p>
                                     </div>
                                 </article>
                             </div>
@@ -122,16 +122,6 @@
                                         <p class="card-subtitle mb-2">Bike jump line connected to Lehi’s Dream.</p>
                                         <p class="card-desc mb-2">Funded by Traverse Mountain Trails Association, Utah Outdoor Recreation Grant, and Lehi City. Constructed by Nature Trails.</p>
                                         <p class="card-distance font-weight-bold">(.25 mi)</p>
-                                    </div>
-                                </article>
-
-                                <article class="timeline-card card bg-transparent border-0 text-white mr-3">
-                                    <img src="/assets/images/timeline/Stairway-To-Heaven.png" class="card-img-top img-fluid" alt="Stairway to Heaven">
-                                    <div class="card-body px-0">
-                                        <h3 class="h3 font-weight-bold">Stairway to Heaven</h3>
-                                        <p class="card-subtitle mb-2">A hiking-only trail connecting Fox Canyon to Deer Ridge.</p>
-                                        <p class="card-desc mb-2">Funded by Traverse Mountain Trails Association, Utah Outdoor Recreation Grant, and Lehi City. Constructed by Blazing Trailz.</p>
-                                        <p class="card-distance font-weight-bold">(1.75 mi)</p>
                                     </div>
                                 </article>
                             </div>
