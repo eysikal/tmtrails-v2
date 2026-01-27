@@ -9,10 +9,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto ">
                  <li class="nav-item">
-                    <a class="nav-link" href="/about">About Us</a>
+                    <a class="nav-link" href="#who-we-are">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/trails">Our Trails</a>
+                    <a class="nav-link" href="#trails-timeline">Our Trails</a>
                 </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/contact-us">Contact Us</a>
