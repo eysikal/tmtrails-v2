@@ -35,7 +35,7 @@
                           
                         </div>
                         <div class="col-md-6">
-                            <img src="/assets/images/volunteers.jpg" alt="Traverse Mountain Trails" class="img-fluid rounded">
+                            <img src="/assets/images/partial-tmta-team.jpg" alt="TMTA Team" class="img-fluid rounded">
                         </div>
                     </div>   
                 </div>
