@@ -62,13 +62,14 @@
         </section>
 
         <!-- Our Trails Section -->
+        <!-- Temporarily removed until we can embed TrailForks -->
         <!-- <section class="trails-section d-flex flex-column  align-items-center justify-content-center position-relative" style="min-height: 80vh;">
                 <h1 class="text-center font-weight-bold m-5">Our Trails</h1>
                 <div class="trails-container container bg-light rounded shadow p-5 my-5"></div>
             </section> -->
 
         <!-- Timeline Section -->
-        <section class="timeline-section container-fluid  text-white py-5 position-relative">
+        <section id="trails-timeline" class="timeline-section container-fluid  text-white py-5 position-relative">
             <div class="timeline-wrapper position-relative">
                 <!-- Horizontal scroll area -->
                 <div class="timeline-cards-wrapper">
