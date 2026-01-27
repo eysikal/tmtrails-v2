@@ -70,6 +70,7 @@
 
         <!-- Timeline Section -->
         <section id="trails-timeline" class="timeline-section container-fluid  text-white py-5 position-relative">
+            <h2 class="text-center font-weight-bold mb-5">Trails Timeline</h2>
             <div class="timeline-wrapper position-relative">
                 <!-- Horizontal scroll area -->
                 <div class="timeline-cards-wrapper">
