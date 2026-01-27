@@ -210,9 +210,9 @@
                                 </article>
 
                                 <article class="timeline-card card bg-transparent border-0 text-white mr-3">
-                                    <img src="/assets/images/timeline/Lehis-Jump.png" class="card-img-top img-fluid" alt="Lehi's Jump Line">
+                                    <img src="/assets/images/timeline/Lehis-Jump.png" class="card-img-top img-fluid" alt="Lehi's Dream Jump Line">
                                     <div class="card-body px-0">
-                                        <h3 class="h3 font-weight-bold">Lehi’s Jump Line</h3>
+                                        <h3 class="h3 font-weight-bold">Lehi’s Dream Jump Line</h3>
                                         <p class="card-subtitle mb-2">Bike jump line connected to Lehi’s Dream.</p>
                                         <p class="card-desc mb-2">Funded by Traverse Mountain Trails Association, Utah Outdoor Recreation Grant, and Lehi City. Constructed by Nature Trails.</p>
                                         <p class="card-distance font-weight-bold">(.25 mi)</p>
