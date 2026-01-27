@@ -75,6 +75,22 @@
                 <div class="timeline-cards-wrapper">
                     <div class="d-flex flex-row flex-nowrap timeline-cards">
 
+                        <!-- YEAR GROUP: 2025 -->
+                        <div class="timeline-year-group d-flex flex-row position-relative mr-4">
+                            <div class="timeline-year display-4 font-weight-light">2025</div>
+                            <div class="d-flex flex-row">
+                                <article class="timeline-card card bg-transparent border-0 text-white mr-3">
+                                    <img src="/assets/images/timeline/Mayors.png" class="card-img-top img-fluid" alt="Mayors trail">
+                                    <div class="card-body px-0">
+                                        <h3 class="h3 font-weight-bold">Stairway to Heaven</h3>
+                                        <p class="card-subtitle mb-2">Hiking-only trail.</p>
+                                        <!-- <p class="card-desc mb-2">Made possible thanks to Mayor Johnson (Lehi) and Mayor Walker (Draper). Funded by Traverse Mountain Trails Association, Utah Outdoor Recreation Grant, and Lehi City. Constructed by Blazing Trailz.</p> -->
+                                        <!-- <p class="card-distance font-weight-bold">(2.1 mi)</p> -->
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+
                         <!-- YEAR GROUP: 2024 -->
                         <div class="timeline-year-group d-flex flex-row position-relative mr-4">
                             <div class="timeline-year display-4 font-weight-light">2024</div>
@@ -142,6 +158,16 @@
                                         <p class="card-subtitle mb-2">Bypass created during a city engineering project.</p>
                                         <p class="card-desc mb-2">Funded by Lehi City Engineering. Constructed by Blazing Trailz.</p>
                                         <p class="card-distance font-weight-bold">(.37 mi)</p>
+                                    </div>
+                                </article>
+
+                                <article class="timeline-card card bg-transparent border-0 text-white mr-3">
+                                    <img src="/assets/images/timeline/raptor.jpg" class="card-img-top img-fluid" alt="Raptor trail">
+                                    <div class="card-body px-0">
+                                        <h3 class="h3 font-weight-bold">Raptor</h3>
+                                        <!-- <p class="card-subtitle mb-2">Bypass created during a city engineering project.</p> -->
+                                        <!-- <p class="card-desc mb-2">Funded by Lehi City Engineering. Constructed by Blazing Trailz.</p> -->
+                                        <!-- <p class="card-distance font-weight-bold">(.37 mi)</p> -->
                                     </div>
                                 </article>
 
