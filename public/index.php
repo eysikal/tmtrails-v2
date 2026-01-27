@@ -43,7 +43,7 @@
             <div class="container px-2 my-5">
                 <div class="row align-items-center">
                     <div class="col-md-4 text-center lh-1 mb-4">
-                        <h2 class="font-weight-bold mb-0">+539</h2>
+                        <h2 class="font-weight-bold mb-0">2,200+</h2>
                         <h1 class="font-weight-bold mb-0">HOURS</h1>
                         <p class="font-weight-light mb-0">VOLUNTEERED</p>
                     </div>
