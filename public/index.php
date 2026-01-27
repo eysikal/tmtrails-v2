@@ -53,7 +53,7 @@
                         <p class="font-weight-light mb-0">SERVED ANNUALLY</p>
                     </div>
                     <div class="col-md-4 text-center lh-1 mb-4">
-                        <h2 class="font-weight-bold mb-0">14</h2>
+                        <h2 class="font-weight-bold mb-0">13</h2>
                         <h1 class="font-weight-bold mb-0">TRAILS</h1>
                         <p class="font-weight-light mb-0">AND COUNTING</p>
                     </div>
