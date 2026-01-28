@@ -100,7 +100,7 @@
                                     <img src="/assets/images/timeline/Mayors.png" class="card-img-top img-fluid" alt="Mayors trail">
                                     <div class="card-body px-0">
                                         <h3 class="h3 font-weight-bold">Mayors’</h3>
-                                        <p class="card-subtitle mb-2">Connecting Lolo to Tráverse Trávérse.</p>
+                                        <p class="card-subtitle mb-2">Connecting Lolo to Tráverse Travérse.</p>
                                         <p class="card-desc mb-2">Made possible thanks to Mayor Johnson (Lehi) and Mayor Walker (Draper). Funded by Traverse Mountain Trails Association, Utah Outdoor Recreation Grant, and Lehi City. Constructed by Blazing Trailz.</p>
                                         <p class="card-distance font-weight-bold">(2.1 mi)</p>
                                     </div>
@@ -192,7 +192,7 @@
                                 <article class="timeline-card card bg-transparent border-0 text-white mr-3">
                                     <img src="/assets/images/timeline/Traverse.png" class="card-img-top img-fluid" alt="Traverse trail">
                                     <div class="card-body px-0">
-                                        <h3 class="h3 font-weight-bold">Tráverse Trávérse</h3>
+                                        <h3 class="h3 font-weight-bold">Tráverse Travérse</h3>
                                         <p class="card-subtitle mb-2">Connection to Draper City's Corner Canyon.</p>
                                         <p class="card-desc mb-2">Funded by Lehi City, Utah Outdoor Recreation Grant, and Traverse Mountain Trails Association. Constructed by Avid Trails.</p>
                                         <p class="card-distance font-weight-bold">(2.65 mi)</p>
