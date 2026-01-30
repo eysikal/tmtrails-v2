@@ -16,7 +16,7 @@
                 <p class="lead text-white mb-4">Discover scenic routes, join our community, and support local trails.</p>
                 <div class="row justify-content-center">
                     <div class="col-auto">
-                        <a href="#trails-timeline" class="btn btn-primary btn-lg mx-2 w-100">Explore Trails</a>
+                        <a href="/our-trails" class="btn btn-primary btn-lg mx-2 w-100">Explore Trails</a>
                     </div>
                     <div class="col-auto">
                         <a href="/donate" class="btn btn-light btn-lg mx-2 w-100">Donate</a>
