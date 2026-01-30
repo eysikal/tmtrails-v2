@@ -12,7 +12,7 @@
                     <a class="nav-link" href="/#who-we-are">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/#trails-timeline">Our Trails</a>
+                    <a class="nav-link" href="/our-trails">Our Trails</a>
                 </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/contact-us">Contact Us</a>
