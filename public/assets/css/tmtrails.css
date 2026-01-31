@@ -88,10 +88,6 @@ main {
 .custom-header-bg {
     background-color: #242937;
 }
-.custom-header-padding {
-    padding-left: 10vh;
-    padding-right: 10vh;
-}
 
 .custom-header-bg .nav-link,
 .custom-header-bg .navbar-brand {
