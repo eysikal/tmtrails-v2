@@ -47,19 +47,7 @@ main {
     z-index: 1;
 }
 .trails-section {
-
-    min-height: 100vh;
     background-color: #DFE6EB;
-}
-
-.trails-container {
-
-    background-image: url('/assets/images/trails-section.png');
-    background-size: cover;
-    background-position: center;
-    min-height: 70vh;
-    min-width: 80vw;
-
 }
 
 .hero-bg-overlay {

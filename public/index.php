@@ -16,7 +16,7 @@
                 <p class="lead text-white mb-4">Discover scenic routes, join our community, and support local trails.</p>
                 <div class="row justify-content-center">
                     <div class="col-auto">
-                        <a href="/our-trails" class="btn btn-primary btn-lg mx-2 w-100">Explore Trails</a>
+                        <a href="/#our-trails" class="btn btn-primary btn-lg mx-2 w-100">Explore Trails</a>
                     </div>
                     <div class="col-auto">
                         <a href="/donate" class="btn btn-light btn-lg mx-2 w-100">Donate</a>
@@ -62,11 +62,19 @@
         </section>
 
         <!-- Our Trails Section -->
-        <!-- Temporarily removed until we can embed TrailForks -->
-        <!-- <section class="trails-section d-flex flex-column  align-items-center justify-content-center position-relative" style="min-height: 80vh;">
-                <h1 class="text-center font-weight-bold m-5">Our Trails</h1>
-                <div class="trails-container container bg-light rounded shadow p-5 my-5"></div>
-            </section> -->
+        <section id="our-trails" class="trails-section py-5">
+            <h1 class="text-center font-weight-bold m-5">Our Trails</h1>
+            <div class="px-4 px-md-6">
+                <div class="TrailforksWidgetMap" data-w="100%" data-h="700px" data-rid="26438" data-activitytype="0"
+                    data-maptype="trailforks" data-trailstyle="difficulty" data-controls="1" data-list="0" data-dml="1"
+                    data-layers="labels,poi,polygon,directory,region" data-z="" data-lat="" data-lon=""
+                    data-hideunsanctioned="0" data-basicmap="0"></div>
+                <div class="text-center mt-5">
+                    <a href="https://www.trailforks.com/region/traverse-mountain-trails/" target="_blank"
+                        class="btn btn-secondary">View on Trailforks</a>
+                </div>
+            </div>
+        </section>
 
         <!-- Timeline Section -->
         <section id="trails-timeline" class="timeline-section container-fluid  text-white py-5 position-relative">
@@ -210,7 +218,7 @@
                                 </article>
 
                             </div>
-                        </div>                        
+                        </div>
 
                         <!-- YEAR GROUP: 2019 -->
                         <div class="timeline-year-group d-flex flex-row position-relative mr-4">
@@ -254,6 +262,13 @@
         <?php include $_SERVER["DOCUMENT_ROOT"] . '/partials/footer.php'; ?>
     </main>
     <?php include $_SERVER["DOCUMENT_ROOT"] . '/partials/close-page.php'; ?>
+    <!-- Trailforks script injection -->
+    <script type="text/javascript">
+        const script = document.createElement('script');
+        script.setAttribute('src', 'https://es.pinkbike.org/ttl-86400/sprt/j/trailforks/widget.js');
+        document.getElementsByTagName('head')[0].appendChild(script);
+        let widgetCheck = false;
+    </script>
 </body>
 
 </html>
