@@ -262,7 +262,7 @@
         <?php include $_SERVER["DOCUMENT_ROOT"] . '/partials/footer.php'; ?>
     </main>
     <?php include $_SERVER["DOCUMENT_ROOT"] . '/partials/close-page.php'; ?>
-    <!-- Trailforks wid -->
+    <!-- Trailforks script injection -->
     <script type="text/javascript">
         const script = document.createElement('script');
         script.setAttribute('src', 'https://es.pinkbike.org/ttl-86400/sprt/j/trailforks/widget.js');
