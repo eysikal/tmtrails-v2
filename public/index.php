@@ -259,6 +259,39 @@
                 </div>
             </div>
         </section>
+
+        <!-- Your Support Section -->
+        <section id="your-support" class="support-section d-flex flex-column align-items-center justify-content-center text-center py-5">
+            <h2 class="font-weight-bold mb-4">Your Support Makes a Difference</h2>
+            <div class="container bg-white rounded p-5 my-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-left">
+                        <h4 class="font-weight-bold mb-4">Help Us Keep Our Trails Open and Safe</h4>
+                        <p class="mb-0">Every $50 helps maintain a mile of trail. Choose your gift and make an impact today.</p>
+                    </div>
+                    <div class="col-md-6 mt-4 mt-md-0">
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <a href="https://www.paypal.com/donate/?hosted_button_id=ZEE4PCRCHFFS8&amount=25" target="_blank" class="donate-btn">
+                                <span class="donate-amount">$25</span>
+                                <span class="donate-currency">USD</span>
+                            </a>
+                            <a href="https://www.paypal.com/donate/?hosted_button_id=ZEE4PCRCHFFS8&amount=50" target="_blank" class="donate-btn">
+                                <span class="donate-amount">$50</span>
+                                <span class="donate-currency">USD</span>
+                            </a>
+                            <a href="https://www.paypal.com/donate/?hosted_button_id=ZEE4PCRCHFFS8&amount=100" target="_blank" class="donate-btn">
+                                <span class="donate-amount">$100</span>
+                                <span class="donate-currency">USD</span>
+                            </a>
+                            <a href="/donate" class="donate-btn">
+                                <span class="donate-amount">Other</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <?php include $_SERVER["DOCUMENT_ROOT"] . '/partials/footer.php'; ?>
     </main>
     <?php include $_SERVER["DOCUMENT_ROOT"] . '/partials/close-page.php'; ?>
