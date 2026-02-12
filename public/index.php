@@ -27,7 +27,7 @@
 
         <!-- About Section -->
         <section id="who-we-are" class="about-section d-flex flex-column  align-items-center justify-content-center position-relative" style="min-height: 80vh;">
-            <div class="container bg-light rounded shadow p-5 my-5">
+            <div class="container bg-white rounded shadow p-5 my-5">
                 <div class="row align-items-center">
                     <div class="col-md-6 text-left">
                         <h2 class="font-weight-bold mb-4">Who We Are</h2>
